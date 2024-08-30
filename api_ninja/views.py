@@ -1,6 +1,6 @@
 from ninja import Router
-from .models import Item
-from .schemas import ItemSchema, ItemCreateSchema
+from api_ninja.models import Item
+from api_ninja.schemas import ItemSchema, ItemCreateSchema
 from django.shortcuts import get_object_or_404
 
 router = Router()

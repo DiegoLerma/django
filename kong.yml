@@ -1,0 +1,11 @@
+_format_version: "2.1"
+services:
+- name: my_api
+  url: http://host.docker.internal:7001
+  routes:
+  - name: my_api_route
+    paths:
+    - /
+    strip_path: false
+    request_buffering: false
+    response_buffering: false
